@@ -16,6 +16,9 @@
     // put update code here
 }
 
-// put new methods here
+// é chamado sempre que tocam a tela
+-(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+    [character flap];
+}
 
 @end
